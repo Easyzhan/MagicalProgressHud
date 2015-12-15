@@ -22,11 +22,10 @@
     // Do any additional setup after loading the view, typically from a nib.
     dataArry = [NSMutableArray new];
     for (int i=0;i<100;i++) {
-//        [dataArry addObject:[NSString stringWithFormat:@"%d",i]];
+        [dataArry addObject:[NSString stringWithFormat:@"%d",i]];
     }
     
-    [MagicalProgressHud flyingHudAddedTo:self.view];
-   // [self performSelector:@selector(hideHud) withObject:nil afterDelay:3.0];
+    [MagicalProgressHud flyingHudAddedTo:self.tableViewData];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
