@@ -10,19 +10,15 @@
 
 @interface MagicalProgressHud : UIView{
     MagicalProgressHud *hud;
+
 }
 
-@property (nonatomic, strong) UIColor *backGroundColor;
-
-@property (nonatomic) CGFloat *alpha;
-
-@property (nonatomic, strong) UIImageView *movingImage;
-
-@property(nonatomic,copy) NSArray *animationImages;
-
-@property(nonatomic) NSTimeInterval animationDuration;
-
-@property(nonatomic) NSInteger  animationRepeatCount; 
++ (void)setBackColor:(UIColor*)color;
++ (void)setAlpha:(CGFloat)alpha;
++ (void)setMovingImage:(UIImageView *)image;
++ (void)setAnimationImages:(NSArray *)images;
++ (void)setAnimationDuration:(NSTimeInterval)duration;
++ (void)setanimationRepeatCount:(NSInteger)count;
 
 
 /**

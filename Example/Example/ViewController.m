@@ -9,8 +9,10 @@
 #import "ViewController.h"
 #import "MagicalProgressHud.h"
 
-@interface ViewController ()
-
+@interface ViewController ()<UITableViewDataSource,UITableViewDataSource>
+{
+    NSMutableArray *dataArry;
+}
 @end
 
 @implementation ViewController
@@ -18,9 +20,29 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [MagicalProgressHud flyingHudAddedTo:self.view];
+    dataArry = [NSMutableArray new];
+    for (int i=0;i<100;i++) {
+//        [dataArry addObject:[NSString stringWithFormat:@"%d",i]];
+    }
     
+    [MagicalProgressHud flyingHudAddedTo:self.view];
    // [self performSelector:@selector(hideHud) withObject:nil afterDelay:3.0];
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+   
+    return dataArry.count;
+
+}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"tableCell"];
+    if (cell==nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"tableCell"];
+    }
+    cell.textLabel.text = [dataArry objectAtIndex:indexPath.row];
+    cell.textLabel.textAlignment = NSTextAlignmentCenter;
+    return cell;
 }
 - (void)hideHud{
    

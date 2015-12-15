@@ -15,19 +15,7 @@
 		184867591B73E487001B5EDB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184867571B73E487001B5EDB /* LaunchScreen.xib */; };
 		184867651B73E487001B5EDB /* ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184867641B73E487001B5EDB /* ExampleTests.m */; };
 		184867721B73E515001B5EDB /* MagicalProgressHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 184867711B73E515001B5EDB /* MagicalProgressHud.m */; };
-		184867801B73E526001B5EDB /* wings_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 184867731B73E526001B5EDB /* wings_1.png */; };
-		184867811B73E526001B5EDB /* wings_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 184867741B73E526001B5EDB /* wings_2.png */; };
-		184867821B73E526001B5EDB /* wings_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 184867751B73E526001B5EDB /* wings_3.png */; };
-		184867831B73E526001B5EDB /* wings_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 184867761B73E526001B5EDB /* wings_4.png */; };
-		184867841B73E526001B5EDB /* wings_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 184867771B73E526001B5EDB /* wings_5.png */; };
-		184867851B73E526001B5EDB /* wings_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 184867781B73E526001B5EDB /* wings_6.png */; };
-		184867861B73E526001B5EDB /* wings_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 184867791B73E526001B5EDB /* wings_7.png */; };
-		184867871B73E526001B5EDB /* wings_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 1848677A1B73E526001B5EDB /* wings_8.png */; };
-		184867881B73E526001B5EDB /* wings_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 1848677B1B73E526001B5EDB /* wings_9.png */; };
-		184867891B73E526001B5EDB /* wings_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 1848677C1B73E526001B5EDB /* wings_10.png */; };
-		1848678A1B73E526001B5EDB /* wings_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 1848677D1B73E526001B5EDB /* wings_11.png */; };
-		1848678B1B73E526001B5EDB /* wings_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 1848677E1B73E526001B5EDB /* wings_12.png */; };
-		1848678C1B73E526001B5EDB /* wings_13.png in Resources */ = {isa = PBXBuildFile; fileRef = 1848677F1B73E526001B5EDB /* wings_13.png */; };
+		1888F3801C1CCA4200C938F4 /* MPHImages.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1888F37F1C1CCA4200C938F4 /* MPHImages.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,19 +44,7 @@
 		184867641B73E487001B5EDB /* ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleTests.m; sourceTree = "<group>"; };
 		184867701B73E515001B5EDB /* MagicalProgressHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MagicalProgressHud.h; path = MagicalProgressHud/MagicalProgressHud.h; sourceTree = "<group>"; };
 		184867711B73E515001B5EDB /* MagicalProgressHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MagicalProgressHud.m; path = MagicalProgressHud/MagicalProgressHud.m; sourceTree = "<group>"; };
-		184867731B73E526001B5EDB /* wings_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wings_1.png; path = MagicalProgressHud/wings_1.png; sourceTree = "<group>"; };
-		184867741B73E526001B5EDB /* wings_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wings_2.png; path = MagicalProgressHud/wings_2.png; sourceTree = "<group>"; };
-		184867751B73E526001B5EDB /* wings_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wings_3.png; path = MagicalProgressHud/wings_3.png; sourceTree = "<group>"; };
-		184867761B73E526001B5EDB /* wings_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wings_4.png; path = MagicalProgressHud/wings_4.png; sourceTree = "<group>"; };
-		184867771B73E526001B5EDB /* wings_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wings_5.png; path = MagicalProgressHud/wings_5.png; sourceTree = "<group>"; };
-		184867781B73E526001B5EDB /* wings_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wings_6.png; path = MagicalProgressHud/wings_6.png; sourceTree = "<group>"; };
-		184867791B73E526001B5EDB /* wings_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wings_7.png; path = MagicalProgressHud/wings_7.png; sourceTree = "<group>"; };
-		1848677A1B73E526001B5EDB /* wings_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wings_8.png; path = MagicalProgressHud/wings_8.png; sourceTree = "<group>"; };
-		1848677B1B73E526001B5EDB /* wings_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wings_9.png; path = MagicalProgressHud/wings_9.png; sourceTree = "<group>"; };
-		1848677C1B73E526001B5EDB /* wings_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wings_10.png; path = MagicalProgressHud/wings_10.png; sourceTree = "<group>"; };
-		1848677D1B73E526001B5EDB /* wings_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wings_11.png; path = MagicalProgressHud/wings_11.png; sourceTree = "<group>"; };
-		1848677E1B73E526001B5EDB /* wings_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wings_12.png; path = MagicalProgressHud/wings_12.png; sourceTree = "<group>"; };
-		1848677F1B73E526001B5EDB /* wings_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wings_13.png; path = MagicalProgressHud/wings_13.png; sourceTree = "<group>"; };
+		1888F37F1C1CCA4200C938F4 /* MPHImages.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MPHImages.bundle; path = MagicalProgressHud/MPHImages.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,31 +128,11 @@
 		1848678D1B73E530001B5EDB /* MagicalProgressHud */ = {
 			isa = PBXGroup;
 			children = (
+				1888F37F1C1CCA4200C938F4 /* MPHImages.bundle */,
 				184867701B73E515001B5EDB /* MagicalProgressHud.h */,
 				184867711B73E515001B5EDB /* MagicalProgressHud.m */,
-				1848678E1B73E544001B5EDB /* MPImages */,
 			);
 			name = MagicalProgressHud;
-			sourceTree = "<group>";
-		};
-		1848678E1B73E544001B5EDB /* MPImages */ = {
-			isa = PBXGroup;
-			children = (
-				184867731B73E526001B5EDB /* wings_1.png */,
-				184867741B73E526001B5EDB /* wings_2.png */,
-				184867751B73E526001B5EDB /* wings_3.png */,
-				184867761B73E526001B5EDB /* wings_4.png */,
-				184867771B73E526001B5EDB /* wings_5.png */,
-				184867781B73E526001B5EDB /* wings_6.png */,
-				184867791B73E526001B5EDB /* wings_7.png */,
-				1848677A1B73E526001B5EDB /* wings_8.png */,
-				1848677B1B73E526001B5EDB /* wings_9.png */,
-				1848677C1B73E526001B5EDB /* wings_10.png */,
-				1848677D1B73E526001B5EDB /* wings_11.png */,
-				1848677E1B73E526001B5EDB /* wings_12.png */,
-				1848677F1B73E526001B5EDB /* wings_13.png */,
-			);
-			name = MPImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,21 +216,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				184867541B73E487001B5EDB /* Main.storyboard in Resources */,
-				184867891B73E526001B5EDB /* wings_10.png in Resources */,
-				184867881B73E526001B5EDB /* wings_9.png in Resources */,
-				184867831B73E526001B5EDB /* wings_4.png in Resources */,
 				184867591B73E487001B5EDB /* LaunchScreen.xib in Resources */,
-				184867861B73E526001B5EDB /* wings_7.png in Resources */,
-				1848678C1B73E526001B5EDB /* wings_13.png in Resources */,
-				184867871B73E526001B5EDB /* wings_8.png in Resources */,
-				184867821B73E526001B5EDB /* wings_3.png in Resources */,
-				1848678B1B73E526001B5EDB /* wings_12.png in Resources */,
-				184867841B73E526001B5EDB /* wings_5.png in Resources */,
 				184867561B73E487001B5EDB /* Images.xcassets in Resources */,
-				184867801B73E526001B5EDB /* wings_1.png in Resources */,
-				1848678A1B73E526001B5EDB /* wings_11.png in Resources */,
-				184867811B73E526001B5EDB /* wings_2.png in Resources */,
-				184867851B73E526001B5EDB /* wings_6.png in Resources */,
+				1888F3801C1CCA4200C938F4 /* MPHImages.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,6 +436,7 @@
 				1848676A1B73E487001B5EDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1848676B1B73E487001B5EDB /* Build configuration list for PBXNativeTarget "ExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +445,7 @@
 				1848676D1B73E487001B5EDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
